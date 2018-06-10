@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Doxtar</string>
+    <string name="url">http://addysden.com</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_address">Enter Address</string>
+    <string name="hint_pincode">Enter PinCode</string>
+    <string name="hint_phone">Enter Phone Number</string>
+    <string name="hint_alt_phone">Enter Alternate Phone Number (Optional)</string>
+    <string name="hint_description">Enter Description About Yourself...</string>
+    <string name="hint_speciality">Enter Your Speciality</string>
+    <string name="hint_license">Enter License Number</string>
+    <string name="hint_email">Enter E-Mail Address</string>
+
+    <string name="client_register_country_text">Country:</string>
+    <string name="client_register_register_button_text">Register</string>
+    <string name="user_profile_save_button_text">Save</string>
+    <string name="client_type_text">Registration Type:</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_name">This Name contains non-alpha characters</string>
+    <string name="error_invalid_phone">This Phone Number should be atleast 10 digit numeric value</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="optional_field_required">License info is mandatory: To validate and avoid duplicate registration</string>
+
+    <string name="permission_camera_rationale">Camera permission is required to capture the profile picture.</string>
+    <string name="permission_storage_rationale">External Storage Read/Write permission is required to save your profile picture.</string>
+    <string name="seach_not_found_rationale">Sorry, No Results found. Please try again...</string>
+    <string name="ok">OK</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1736206115068601/8502380378</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_renter_password">Re-enter Password</string>
+    <string name="prompt_otp">Enter OTP</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="email_register_button">Register</string>
+    <string name="action_register_short">Register</string>
+
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_password_match">Passwords does not match</string>
+    <string name="error_invalid_otp">OTP is of incorrect format</string>
+    <string name="error_invalid_dob">Invalid Date of Birth</string>
+
+    <string name="action_sendOTP_short">Send OTP</string>
+    <string name="send_OTP_button">Send OTP</string>
+    <string name="gen_pswd_button">Generate Password</string>
+    <string name="submit_button">Submit</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="register_label">Click here to Register</string>
+    <string name="forgot_pswd_label">Click if Forgot Password</string>
+    <string name="title_activity_register">Doxtar: Register User</string>
+    <string name="title_activity_forgot_password">Doxtar: Forgot Password</string>
+    <string name="title_activity_password_reset">Doxtar: Reset Password</string>
+    <string name="title_activity_enter_otp">Doxtar: Enter OTP</string>
+    <string name="title_activity_post_login">Doxtar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="client_type_text_value">DocHosChemPath</string>
+    <string name="client_name_text_value">DocHosChemPath Name</string>
+    <string name="client_address_text_value">Address with Country and Pin Code (Doctor/Hospital/Chemist/Pathology</string>
+    <string name="client_speciality_text_value">Client Speciality Text</string>
+    <string name="client_phone_text">Phone:</string>
+    <string name="client_data_pop_phone1_text">+XX XXXX XXX XXX</string>
+    <string name="client_data_pop_phone2_text">+XX XXXX XXX XXX</string>
+    <string name="client_type_email_value">Email:</string>
+    <string name="client_description_text_value">Xxxxxx Xxxx Xxx Xx Xxxx Description Xxxxxx Xxxx Xxx Xx Xxxx</string>
+
+    <string name="client_search_hint">Find your Med here ...</string>
+    <string name="logout_warning">Please click Back again to exit</string>
+    <string name="client_name">Rate your Med!</string>
+    <string name="hit_value">0</string>
+    <string name="click2rate_text">Click2Rate:</string>
+    <string name="rating_text">(X.X/5.0)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

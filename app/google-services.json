@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "687278910011",
+    "project_id": "doxtar-bd25d"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687278910011:android:0ca1ed54e1e12d7c",
+        "android_client_info": {
+          "package_name": "addysden.doctor.doxtar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "687278910011-8u1a7plojmcjb1g3c5h1c9p1u7eooh3b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "addysden.doctor.doxtar",
+            "certificate_hash": "CE32C613E121258941B3DF4A330CC55D993876FF"
+          }
+        },
+        {
+          "client_id": "687278910011-f6qd9ce7kaitdp1v9c8964duc8rtmasq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-GtooFK7PVE1I04rr7_jRJRrTwiI7zjE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "687278910011-f6qd9ce7kaitdp1v9c8964duc8rtmasq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2,
+          "test_banner_ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+          "test_interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

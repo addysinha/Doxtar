@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0080ff</color>
+    <color name="colorPrimaryDark">#2b2bfa</color>
+    <color name="colorAccent">#4076ff</color>
+    <color name="colorDivider">#017ffd</color>
+    <color name="searchViewSubmitBkGrndColor">#ffffb1</color>
+    <color name="text_on_image_color">#FFD700</color>
+    <color name="colorOrange">#ff4800</color>
+    <color name="colorPurple">#d900ff</color>
+    <color name="colorGreen">#00ff22</color>
+    <color name="colorPink">#ff00b2</color>
+    <color name="colorGrey">#938c91</color>
+</resources>

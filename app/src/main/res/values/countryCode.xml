@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DEFAULT_COUNTRY">
+        <item name="code">0</item>
+        <item name="country">--Select--</item>
+    </string-array>
+    <string-array name="IN">
+        <item name="code">91</item>
+        <item name="country">India</item>
+    </string-array>
+    <string-array name="US">
+        <item name="code">1</item>
+        <item name="country">United States Of America</item>
+    </string-array>
+    <string-array name="UK">
+        <item name="code">44</item>
+        <item name="country">United Kingdom</item>
+    </string-array>
+
+    <array name="countries">
+        <item>@array/DEFAULT_COUNTRY</item>
+        <item>@array/IN</item>
+        <item>@array/US</item>
+        <item>@array/UK</item>
+    </array>
+</resources>

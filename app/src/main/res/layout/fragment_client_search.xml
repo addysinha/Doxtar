@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="addysden.doctor.doxtar.ClientSearchFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/client_search_progressBar"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/client_register_progress_bar_margin_top" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/client_search_linear_layout"
+            android:paddingTop="@dimen/item_padding_top_16">
+
+            <SearchView
+                android:id="@+id/client_search_search_view"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/searchview_layout_height"
+                android:queryHint="@string/client_search_hint"
+                android:layout_weight="10"
+                android:iconifiedByDefault="false"
+                android:background="@color/searchViewSubmitBkGrndColor"/>
+
+            <ListView
+                android:id="@+id/client_search_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="100"
+                tools:listitem="@layout/fragment_clientlist"/>
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/fragment_search_adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id">
+            </com.google.android.gms.ads.AdView>
+
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="DEFAULT_TYPE">
+        <item name="code">0</item>
+        <item name="type">--Select--</item>
+    </string-array>
+    <string-array name="DOC">
+        <item name="code">1</item>
+        <item name="type">Doctor</item>
+    </string-array>
+    <string-array name="HOSP">
+        <item name="code">2</item>
+        <item name="type">Hospital</item>
+    </string-array>
+    <string-array name="CHEM">
+        <item name="code">3</item>
+        <item name="type">Chemist</item>
+    </string-array>
+    <string-array name="PATH">
+        <item name="code">4</item>
+        <item name="type">Pathology</item>
+    </string-array>
+
+    <array name="clientType">
+        <item>@array/DEFAULT_TYPE</item>
+        <item>@array/DOC</item>
+        <item>@array/HOSP</item>
+        <item>@array/CHEM</item>
+        <item>@array/PATH</item>
+    </array>
+</resources>

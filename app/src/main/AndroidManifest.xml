@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="addysden.doctor.doxtar">
+    <supports-screens android:resizeable="true"
+        android:smallScreens="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:xlargeScreens="true"/>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+<application
+    android:allowBackup="true"
+    android:icon="@mipmap/ic_gimmemed_logo"
+    android:label="@string/app_name"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <meta-data android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+    <activity
+        android:name=".LoginActivity"
+        android:label="@string/app_name">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".RegisterActivity"
+        android:label="@string/title_activity_register" />
+    <activity
+        android:name=".ForgotPasswordActivity"
+        android:label="@string/title_activity_forgot_password" />
+    <activity
+        android:name=".PasswordResetActivity"
+        android:label="@string/title_activity_password_reset" />
+    <activity
+        android:name=".EnterOTPActivity"
+        android:label="@string/title_activity_enter_otp">
+        <intent-filter>
+            <action android:name="android.intent.action.VIEW" />
+            <category android:name="android.intent.category.DEFAULT" />
+            <category android:name="android.intent.category.BROWSABLE" />
+            <!-- <data android:scheme="gmed" android:host="addysden.com"/> -->
+
+            <data android:scheme="http"
+                android:host="addysden.com"
+                android:pathPrefix="/activate" />
+            <!-- note that the leading "/" is required for pathPrefix-->
+            <!-- Accepts URIs that begin with "example://gizmos” -->
+            <data android:scheme="addysden"
+                android:host="activate" />
+
+        </intent-filter>
+    </activity>
+    <activity
+        android:name=".DocDirMainActivity"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+    </activity>
+    <activity android:name="com.google.android.gms.ads.AdActivity"
+        android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+        android:theme="@android:style/Theme.Translucent" />
+</application>
+</manifest>
